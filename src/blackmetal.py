@@ -6,7 +6,7 @@ import m6
 
 S = 512
 here = os.path.dirname(os.path.abspath(__file__))
-GOTHIC = os.path.join(here, "fonts", "UnifrakturMaguntia.ttf")
+GOTHIC = os.path.join(here, "fonts", "NewRocker.ttf")  # readable blackletter; Fraktur k/d were illegible
 
 
 def forest(seed):
@@ -67,7 +67,7 @@ def spiky_logo(txt, width=490, seed=0):
     if len(txt) > 11 and len(words) > 1:  # split into two balanced lines
         k = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
         lines = [" ".join(words[:k]), " ".join(words[k:])]
-    f = ImageFont.truetype(GOTHIC, 130)
+    f = ImageFont.truetype(GOTHIC, 150)
     while max(f.getlength(l) for l in lines) > width - 90 and f.size > 30:
         f = f.font_variant(size=f.size - 3)
     lh = int(f.size * 0.95)
@@ -92,8 +92,9 @@ def spiky_logo(txt, width=490, seed=0):
         x, y = xs[i], ys[i]
         nx, ny = -gx[y, x], -gy[y, x]
         n = math.hypot(nx, ny)
-        if n < 1e-3 or abs(ny / n) < 0.8:
-            continue  # only straight up/down thorns: the letter shapes stay intact
+        line_top = pad + lh * ((y - pad) // lh) if y >= pad else pad
+        if n < 1e-3 or ny / n > -0.8 or (y - line_top) > lh * 0.42:
+            continue  # only upward thorns off the tops of letters: bowls and counters stay clean
         nx, ny = nx / n, ny / n
         L = rnd.uniform(8, 20)
         md.polygon([(x - 2.2, y), (x + 2.2, y), (x + nx * L, y + ny * L)], fill=255)
