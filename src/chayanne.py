@@ -181,19 +181,24 @@ def domingo():
     bg.alpha_composite(glow, (36, 40)); bg.alpha_composite(heart, (36, 40))
     body = Image.open(os.path.join(here, "kratos", "kratos_cuerpo.webp")).convert("RGBA")
     body = body.crop(body.getbbox())
-    body = body.resize((int(body.width * 250 / body.height), 250), Image.LANCZOS)
-    big = head("kratos_serio.png", 185)
+    W0, H0 = body.size
+    ImageDraw.Draw(body).rectangle([int(0.52 * W0), 0, int(0.78 * W0), int(0.145 * H0)], fill=(0, 0, 0, 0))  # remove his own head
+    body = body.crop(body.getbbox())
+    sx, sy = 1.34, 0.56  # squashed: wide and short
+    body = body.resize((int(body.width * sx), int(body.height * sy)), Image.LANCZOS)
+    neck_x = int(0.64 * W0 * sx)  # neck position in the squashed body
+    big = head("kratos_serio.png", int(0.15 * H0 * sx))  # head at the body's normal (un-squashed) scale
     for code, xy, r in (("1f339", (-10, 330), -15), ("1f339", (430, 320), 15), ("1f338", (440, 150), 0), ("1f338", (8, 160), 0)):
         bg.alpha_composite(m6.emoji(code, 76).rotate(r, expand=True), xy)
     frames = []
     for i in range(N):
         t = i / N
         fr = bg.copy()
-        bx, by = (S - body.width) // 2, 135
+        bx, by = (S - body.width) // 2, 178
         fr.alpha_composite(body, (bx, by))
-        wob = 10 * math.sin(2 * math.pi * t)  # bobblehead wobble
-        h2 = big.rotate(wob, expand=True, resample=Image.BICUBIC)
-        fr.alpha_composite(h2, (int(S / 2 + 4 - h2.width / 2), int(by + 10 - h2.height * 0.72)))
+        h2 = big.rotate(-360 * t, expand=True, resample=Image.BICUBIC)  # head spins a full turn per loop
+        hc = (bx + neck_x, by - big.height * 0.35)  # head centre sits just above the neck
+        fr.alpha_composite(h2, (int(hc[0] - h2.width / 2), int(hc[1] - h2.height / 2)))
         text(fr, ["Feliz Domingo Guapa"], (S / 2, 44), 58, [(255, 255, 255, 255)], stroke=(200, 30, 120), shadow=(80, 0, 50))
         text(fr, ["Que te vaya bien hoy y no", "se te olvide tomar agua"], (S / 2, 420), 36, [(255, 255, 255, 255)], stroke=(200, 30, 120), shadow=(80, 0, 50))
         fr.alpha_composite(m6.emoji("1f4a7", 46), (440, 450))
