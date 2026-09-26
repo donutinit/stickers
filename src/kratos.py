@@ -104,9 +104,9 @@ PIECES = {
     "muchas_gracias": dict(photo=("kratos_grito.jpg", (0.56, 0.22), 0.36, 300, "circle"), xy=(80, 70),
                            texts=[("¡Muchas", 84, GOLD, 0), ("Gracias!", 94, PINK, -10)], bg=((255, 245, 215), (255, 205, 180)),
                            deco=[("1f64f", 84, (22, 190), 0), ("1f490", 96, (410, 200), 10)]),
-    "buenos_dias": dict(cut=("kratos_cuerpo.webp", 370), xy=(160, 8),
-                        texts=[("Buenos Días", 96, GOLD, -10)], bg=((255, 245, 210), (255, 200, 220)),
-                        deco=[("2600", 110, (14, 20), 0), ("2615", 90, (400, 250), 0), ("1f33c", 70, (30, 250), 0)]),
+    "buenos_dias": dict(cut=("kratos_cuerpo.webp", 540), xy=(112, -6),  # full-height Kratos, text in front
+                        texts=[("Buenos Días", 112, GOLD, -14)], bg=((255, 245, 210), (255, 200, 220)),
+                        deco=[("2600", 110, (8, 12), 0), ("2615", 96, (408, 250), 0), ("1f33c", 74, (20, 240), 0)]),
     "cuidate": dict(photo=("kratos_parado.jpg", (0.5, 0.12), 0.34, 320, "heart"), xy=(70, 30),
                     texts=[("Cuídate Mucho", 86, PINK, -12)], bg=((225, 245, 255), (200, 225, 255)),
                     deco=[("1f98b", 80, (20, 30), -10), ("1f337", 84, (420, 300), 10), ("1f33a", 76, (0, 330), -10)]),
@@ -150,10 +150,10 @@ def cute(subject, texts, bow, deco, seed, night=False):
         t = i / n
         fr = Image.new("RGBA", (S, S))
         bob = int(4 * math.sin(2 * math.pi * t))
-        fr.alpha_composite(subject, (hx, 8 + bob))
+        fr.alpha_composite(subject, (hx, 22 + bob))  # margin so the crown never touches the edge
         if bow:
             b = m6.emoji("1f380", bow[1]).rotate(bow[2] + 6 * math.sin(2 * math.pi * t), expand=True, resample=Image.BICUBIC)
-            fr.alpha_composite(b, (hx + int(bow[0] * subject.width) - b.width // 2, max(0, 8 + bob - b.height // 3)))
+            fr.alpha_composite(b, (hx + int(bow[0] * subject.width) - b.width // 2, max(0, 22 + bob - b.height // 3)))
         for code, sz, (x, y), rot in deco:
             fr.alpha_composite(m6.emoji(code, sz).rotate(rot, expand=True, resample=Image.BICUBIC), (x, y))
         for x, ph, code, sz in floaters:
@@ -174,13 +174,13 @@ def cute(subject, texts, bow, deco, seed, night=False):
 
 HEADS = {
     # name: (cut file, crop box, head height, texts, bow (x frac, size, rot) or None, deco, night)
-    "te_amo":          ("kratos_enojado.png", (0, 0, 1, 1), 390, [("Te Amo", 112, PINK, -4)], (0.62, 120, 12), [], False),
-    "estas_linda":     ("kratos_serio.png", (0, 0, 1, 1), 390, [("Estás Linda", 100, LILAC, -4)], (0.35, 120, -12), [], False),
+    "te_amo":          ("kratos_enojado.png", (0, 0, 1, 1), 360, [("Te Amo", 112, PINK, -4)], (0.62, 120, 12), [], False),
+    "estas_linda":     ("kratos_serio.png", (0, 0, 1, 1), 360, [("Estás Linda", 100, LILAC, -4)], (0.35, 120, -12), [], False),
     "muchas_gracias":  ("kratos_grito.png", (0.28, 0, 0.78, 0.62), 380, [("¡Muchas Gracias!", 84, GOLD, -4)], None, [("1f64f", 90, (400, 250), 0)], False),
     "cuidate":         ("kratos_parado.png", (0.22, 0, 0.78, 0.36), 390, [("Cuídate Mucho", 92, PINK, -4)], (0.52, 110, 10), [], False),
     "descansa":        ("kratos_barba.png", (0.18, 0, 0.78, 0.42), 390, [("Descansa", 110, NIGHT, -4)], None, [("1f319", 100, (410, 10), 0)], True),
-    "lo_se":           ("kratos_serio.png", (0, 0, 1, 1), 390, [("Lo sé.", 124, LILAC, -4)], None, [("1f485", 96, (410, 250), 0)], False),
-    "lo_se_enojado":   ("kratos_enojado.png", (0, 0, 1, 1), 390, [("Lo sé.", 124, PINK, -4)], (0.62, 120, 12), [("1f485", 90, (410, 260), 0)], False),
+    "lo_se":           ("kratos_serio.png", (0, 0, 1, 1), 360, [("Lo sé.", 124, LILAC, -4)], None, [("1f485", 96, (410, 250), 0)], False),
+    "lo_se_enojado":   ("kratos_enojado.png", (0, 0, 1, 1), 360, [("Lo sé.", 124, PINK, -4)], (0.62, 120, 12), [("1f485", 90, (410, 260), 0)], False),
     "yo_tambien":      ("kratos_barba.png", (0.18, 0, 0.78, 0.42), 390, [("Yo También", 104, PINK, -4)], (0.5, 110, 8), [], False),
     "yo_tambien_grito": ("kratos_grito.png", (0.28, 0, 0.78, 0.62), 380, [("¡Yo También!", 100, LILAC, -4)], None, [("1f496", 80, (410, 230), 10)], False),
 }
