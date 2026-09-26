@@ -187,6 +187,8 @@ HEADS = {
     "gracias_dios":    ("kratos_grito.png", (0.28, 0, 0.78, 0.62), 360, [("¡Gracias a Dios!", 88, GOLD, -4)], None,
                         [("1f64f", 96, (400, 230), 0), ("2728", 70, (30, 40), 0)], False),
     "yo_tambien_grito": ("kratos_grito.png", (0.28, 0, 0.78, 0.62), 380, [("¡Yo También!", 100, LILAC, -4)], None, [("1f496", 80, (410, 230), 10)], False),
+    "vieja_sabrosa":   ("kratos_enojado.png", (0, 0, 1, 1), 360, [("Vieja Sabrosa", 94, PINK, -4)], (0.62, 120, 12),
+                        [("1f48b", 84, (14, 230), -10), ("1f525", 84, (416, 230), 10)], False),
 }
 
 if __name__ == "__main__":
