@@ -39,6 +39,20 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `kittelsen_draugen.jpg`: [Draugen.jpg](https://commons.wikimedia.org/wiki/File:Draugen.jpg) — Theodor Kittelsen, Public domain
 - `munch_grito.jpg`: [The Scream MET DP860367.jpg](https://commons.wikimedia.org/wiki/File:The_Scream_MET_DP860367.jpg) — Edvard Munch (Metropolitan Museum of Art), CC0
 
+## Fotos reales (`src/fotos/`, stickers `kratos_semana_*`)
+
+- `rosa.jpg`: [Red rose flower close up.jpg](https://commons.wikimedia.org/wiki/File:Red_rose_flower_close_up.jpg) — Drsssuresh1961, CC BY-SA 4.0 (el sticker es obra derivada, misma licencia)
+- `girasol.jpg`: [Young sunflower with clear sky background.jpg](https://commons.wikimedia.org/wiki/File:Young_sunflower_with_clear_sky_background.jpg) — strumswell, CC BY-SA 2.0 (el sticker es obra derivada, misma licencia)
+- `margaritas.jpg`: [Meadow full of daisies, Idstein.jpg](https://commons.wikimedia.org/wiki/File:Meadow_full_of_daisies,_Idstein.jpg) — Gerda Arendt, CC0
+- `rosas_pared.jpg`: [Bouquet de roses roses.jpg](https://commons.wikimedia.org/wiki/File:Bouquet_de_roses_roses.jpg) — Jebulon, CC BY-SA 3.0 (el sticker es obra derivada, misma licencia)
+- `ramo.jpg`: [Bouquet of roses of various colours.jpg](https://commons.wikimedia.org/wiki/File:Bouquet_of_roses_of_various_colours.jpg) — Rohini, CC BY-SA 4.0 (el sticker es obra derivada, misma licencia)
+- `cafe.jpg`: [Morning cup of coffee black no sugar.jpg](https://commons.wikimedia.org/wiki/File:Morning_cup_of_coffee_black_no_sugar.jpg) — Jon Sullivan, Public domain
+- `amanecer.jpg`: [Sunrise over a meadow (Unsplash).jpg](https://commons.wikimedia.org/wiki/File:Sunrise_over_a_meadow_(Unsplash).jpg) — Jakub Kriz jakubkriz, CC0
+- `playa.jpg`: [Havelock Island, Mangrove tree on the beach, Andaman Islands.jpg](https://commons.wikimedia.org/wiki/File:Havelock_Island,_Mangrove_tree_on_the_beach,_Andaman_Islands.jpg) — Vyacheslav Argenberg, CC BY 4.0
+- `bokeh.jpg`: [Abstract bokeh lights (22142580635).jpg](https://commons.wikimedia.org/wiki/File:Abstract_bokeh_lights_(22142580635).jpg) — Jim Killock, CC BY-SA 2.0 (el sticker es obra derivada, misma licencia)
+- `mariposa.jpg`: [ComputerHotline - Danaus plexippus (by) (3).jpg](https://commons.wikimedia.org/wiki/File:ComputerHotline_-_Danaus_plexippus_(by)_(3).jpg) — Thomas Bresson, CC BY 2.0
+- `tulipanes.jpg`: [Tulip Field Tulips Red Holland Nature Flowers.jpg](https://commons.wikimedia.org/wiki/File:Tulip_Field_Tulips_Red_Holland_Nature_Flowers.jpg) — Filio, CC0
+
 ## Imágenes de ponis
 
 | Archivo | Fuente |
