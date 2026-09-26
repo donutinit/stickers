@@ -53,10 +53,11 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 ```bash
 cd src
-python3 -m venv venv && venv/bin/pip install -r requirements.txt scipy rembg  # rembg solo para recortar fondos
+PY=~/ml/envs/rembg/bin/python        # pillow, numpy, scipy, rembg (en lizeth; ver ~/ml/README.md)
 ./get_impact.sh                      # Impact no se puede redistribuir; esto la baja de las core fonts de Microsoft
-venv/bin/python m6.py                # cada script escribe sus frames en src/*frames/
+$PY m6.py                            # cada script escribe sus frames en src/*frames/
 ./encode.sh m6frames/c_pinkie out/c_pinkie.webp 60   # frames + delays.txt -> WebP animado
+$PY gallery.py && $PY gallery.py --check             # la galería del README lista TODOS los stickers de packs/
 ```
 
 Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impact.sh`).
@@ -85,6 +86,7 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `buenosdias.py` | 10 Buenos Días de Kratos con fotos reales y todos sus recortes |
 | `valgo.py` | «Te valgo verga» en todos los estilos |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
+| `gallery.py` | regenera la galería del README desde `packs/` (`--check` verifica que no falte ninguno) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 
 Ver [CREDITS.md](CREDITS.md) para el origen y licencia de cada imagen, emoji y fuente.
