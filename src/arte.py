@@ -57,19 +57,26 @@ def print_frame(w, h, t=9, mat=20):
 
 
 def plaque(title, meta, style):
-    """museum label: title + small meta line, brass (gold) or white card (print)."""
+    """museum label with just the title, brass (gold) or white card (print). `meta` is kept for the credits only."""
     if style == "gold":
-        tf = font("EBGaramond-Italic.ttf", 44, 600)
+        tf = font("EBGaramond-Italic.ttf", 58, 750)
         col, meta_col = (40, 26, 8), (70, 50, 20)
     else:
-        tf = font("UnifrakturMaguntia.ttf", 44)
+        tf = font("UnifrakturMaguntia.ttf", 58)
         col, meta_col = (20, 18, 18), (80, 76, 70)
-    mf = font("EBGaramond.ttf", 17, 500)
-    while tf.getlength(title) > 440:
+    # one big line if it fits, otherwise two balanced lines at a still-large size
+    lines = [title]
+    if tf.getlength(title) > 450:
+        words = title.split()
+        best = min(range(1, len(words)), key=lambda k: abs(tf.getlength(" ".join(words[:k])) - tf.getlength(" ".join(words[k:]))))
+        lines = [" ".join(words[:best]), " ".join(words[best:])]
+        tf = tf.font_variant(size=52)
+    while max(tf.getlength(l) for l in lines) > 450:
         tf = tf.font_variant(size=tf.size - 2)
-    tw = max(tf.getlength(title), mf.getlength(meta)) + 44
-    th = 96
-    w = int(min(480, tw))
+    lh = int(tf.size * 1.05)
+    tw = max(tf.getlength(l) for l in lines) + 44
+    th = 26 + lh * len(lines)
+    w = int(min(490, tw))
     im = Image.new("RGBA", (w, th))
     d = ImageDraw.Draw(im)
     if style == "gold":
@@ -83,8 +90,8 @@ def plaque(title, meta, style):
             d.ellipse([x - 4, y - 4, x + 4, y + 4], fill=(150, 110, 45, 255))
     else:
         d.rectangle([0, 0, w - 1, th - 1], fill=(250, 248, 243, 255), outline=(30, 28, 28, 255), width=2)
-    d.text((w / 2, 40), title, font=tf, fill=col, anchor="mm")
-    d.text((w / 2, 78), meta, font=mf, fill=meta_col, anchor="mm")
+    for k, l in enumerate(lines):
+        d.text((w / 2, 13 + lh * k + lh / 2), l, font=tf, fill=col, anchor="mm")
     return im
 
 
@@ -102,7 +109,8 @@ def piece(img, title, meta, style, crop=None):
     if crop:
         W, H = art.size
         art = art.crop((int(crop[0] * W), int(crop[1] * H), int(crop[2] * W), int(crop[3] * H)))
-    box_w, box_h = 480, 402  # room for frame + art above the plaque
+    pl = plaque(title, meta, style)
+    box_w, box_h = 480, S - pl.height - 12  # frame + art get whatever the plaque leaves
     if style == "gold":
         t = 30
         inner = (box_w - 2 * t, box_h - 2 * t)
@@ -123,7 +131,6 @@ def piece(img, title, meta, style, crop=None):
     sh, pad = shadow(frame)
     out.alpha_composite(sh, (fx - pad, fy - pad + 6))
     out.alpha_composite(frame, (fx, fy))
-    pl = plaque(title, meta, style)
     py = S - pl.height - 2
     sh, pad = shadow(pl, blur=5, alpha=110)
     out.alpha_composite(sh, ((S - pl.width) // 2 - pad, py - pad + 4))

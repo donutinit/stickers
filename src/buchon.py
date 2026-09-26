@@ -190,8 +190,23 @@ def culiacan():
                        [("Puro Culiacán", 86, 10), ("Sinaloa", 96, 405)], extras, seed=5, face=(170, 90, 330, 200))
 
 
+def arremangado():
+    pk = m6.load("pp/FANMADE_Pinkie_Pie_vector_2.t.png", h=340)
+    def extras(fr, t, layer):
+        if layer == "behind":
+            m6.rays(fr, t * 50, [(212, 165, 50), (50, 38, 10)], alpha=80, n=16, c=(180, 280))
+        else:
+            for k, (x, y) in enumerate(((60, 210), (70, 330))):  # hearts pointing at the flank
+                s = 1 + 0.18 * max(0, math.sin(2 * math.pi * (t * 2 + k * 0.5)))
+                h = m6.emoji("1f496", int(56 * s))
+                fr.alpha_composite(h, (x - h.width // 2, y - h.height // 2))
+            fr.alpha_composite(m6.emoji("1f525", 64), (20, 250))
+    return base_frames(pk, ((S - pk.width) // 2 + 20, 76), None,
+                       [("Soy Fan de tu", 80, 10), ("Culito Arremangado", 80, 412)], extras, seed=6, face=(250, 100, 420, 220))
+
+
 if __name__ == "__main__":
-    for name in sys.argv[1:] or ("enamorado", "hummers", "bien_loco", "tu_boca", "culiacan"):
+    for name in sys.argv[1:] or ("enamorado", "hummers", "bien_loco", "tu_boca", "culiacan", "arremangado"):
         frames, delays = globals()[name]()
         d = os.path.join(here, "buchframes", name); os.makedirs(d, exist_ok=True)
         for f in os.listdir(d):
