@@ -197,7 +197,7 @@ def domingo():
         bx, by = (S - body.width) // 2, 168
         fr.alpha_composite(body, (bx, by))
         h2 = big.rotate(15 * math.sin(2 * math.pi * t), expand=True, resample=Image.BICUBIC)  # bobblehead wobble, ±15°
-        hc = (bx + neck_x, by + 6 - big.height * 0.42)  # chin rests on the neck
+        hc = (bx + neck_x, by + 18 - big.height * 0.42)  # chin rests on the neck
         fr.alpha_composite(h2, (int(hc[0] - h2.width / 2), int(hc[1] - h2.height / 2)))
         text(fr, ["Feliz Domingo Guapa"], (S / 2, 44), 58, [(255, 255, 255, 255)], stroke=(200, 30, 120), shadow=(80, 0, 50))
         text(fr, ["Que te vaya bien hoy y no", "se te olvide tomar agua"], (S / 2, 420), 36, [(255, 255, 255, 255)], stroke=(200, 30, 120), shadow=(80, 0, 50))
