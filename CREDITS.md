@@ -19,6 +19,7 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `dore_bosque.jpg`: [Gustave Doré - Dante Alighieri - Inferno - Plate 4 (Dante meets Virgil).jpg](https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_4_(Dante_meets_Virgil).jpg)
 - `dore_cuervo.jpg`: [Dore raven shadow2.jpg](https://commons.wikimedia.org/wiki/File:Dore_raven_shadow2.jpg)
 - `dore_leviatan.jpg`: [Destruction of Leviathan.png](https://commons.wikimedia.org/wiki/File:Destruction_of_Leviathan.png)
+- `goya_perro.jpg`: [Goya Dog.jpg](https://commons.wikimedia.org/wiki/File:Goya_Dog.jpg)
 
 ## Imágenes de ponis
 

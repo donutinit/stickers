@@ -88,6 +88,7 @@ CARDS = [
     (8, "ya voy.", "loc. — mentira piadosa", BLACK, PAPER, RED),
     (9, "te amo.", "loc. — declaración, sin garantía", PAPER, RED),
     (10, "oki doki.", "interj. — conformidad", KLEIN, YELLOW),
+    (11, "ni en su casa lo conocen.", "loc. — irrelevancia certificada", PAPER, BLACK, RED),
 ]
 
 if __name__ == "__main__":
