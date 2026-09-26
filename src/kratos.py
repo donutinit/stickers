@@ -182,6 +182,8 @@ HEADS = {
     "lo_se":           ("kratos_serio.png", (0, 0, 1, 1), 360, [("Lo sé.", 124, LILAC, -4)], None, [("1f485", 96, (410, 250), 0)], False),
     "lo_se_enojado":   ("kratos_enojado.png", (0, 0, 1, 1), 360, [("Lo sé.", 124, PINK, -4)], (0.62, 120, 12), [("1f485", 90, (410, 260), 0)], False),
     "yo_tambien":      ("kratos_barba.png", (0.18, 0, 0.78, 0.42), 390, [("Yo También", 104, PINK, -4)], (0.5, 110, 8), [], False),
+    "tus_tetas":       ("kratos_serio.png", (0, 0, 1, 1), 300, [("Me gustan mucho", 84, LILAC, -96), ("tus tetas", 100, PINK, -4)],
+                        (0.35, 104, -12), [("1f495", 80, (410, 150), 10)], False),
     "yo_tambien_grito": ("kratos_grito.png", (0.28, 0, 0.78, 0.62), 380, [("¡Yo También!", 100, LILAC, -4)], None, [("1f496", 80, (410, 230), 10)], False),
 }
 
