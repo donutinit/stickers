@@ -167,6 +167,7 @@ PIECES = {
     "duelo":     ("goya_duelo.jpg", (0.02, 0, 0.52, 1), False, 1.2, 1.2, "es broma", [("1f97a", 390, 395, 100)], 6),
     "capricho":  ("goya_capricho43.jpg", (0.04, 0.05, 0.96, 0.66), True, 1.3, 1.1, "maravilloso", [("1f495", 30, 400, 90)], 6),
     "draugen":   ("kittelsen_draugen.jpg", (0.2, 0, 0.9, 1), True, 1.4, 1.1, "ni en su casa lo conocen", [("1f97a", 390, 400, 100)], 6),
+    "gracias_dios": ("holbein_abad.jpg", (0.05, 0.1, 0.95, 0.95), True, 1.4, 1.1, "gracias a dios", [("1f64f", 390, 395, 100)], 6),
     "grito":     ("munch_grito.jpg", (0.2, 0.32, 0.76, 0.754), False, 1.5, 0.85, "aterrado absoluto", [("1f97a", 400, 14, 96)], -2),
 }
 

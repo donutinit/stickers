@@ -147,6 +147,7 @@ PIECES = [
     ("arte_bosque", "dore_bosque.jpg", "¿Y este wey quién es?", "Gustave Doré · 1861 · Inferno, canto I", "print", None),
     ("arte_cuervo", "dore_cuervo.jpg", "Nel.", "Gustave Doré · 1884 · The Raven", "print", (0, 0.05, 1, 0.8)),
     ("arte_perro", "goya_perro.jpg", "Ni en su casa lo conocen", "Francisco de Goya · 1819–1823 · Óleo sobre revoco", "gold", (0, 0.4, 1, 1)),
+    ("arte_gracias_dios", "dore_paraiso.jpg", "Gracias a Dios", "Gustave Doré · 1868 · Paradiso, canto XXXI", "print", None),
     ("arte_leviatan", "dore_leviatan.jpg", "Me turbo vale pito", "Gustave Doré · 1866 · La Biblia", "print", None),
 ]
 

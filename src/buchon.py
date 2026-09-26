@@ -205,8 +205,20 @@ def arremangado():
                        [("Soy Fan de tu", 80, 10), ("Culito Arremangado", 80, 412)], extras, seed=6, face=(250, 100, 420, 220))
 
 
+def gracias_dios():
+    rd = m6.load("rd/FANMADE_proud_Rainbow_Dash_vector.png", h=330)
+    def extras(fr, t, layer):
+        if layer == "behind":
+            m6.rays(fr, t * 50, [(212, 165, 50), (50, 38, 10)], alpha=90, n=18, c=(256, 230))
+        else:
+            fr.alpha_composite(m6.emoji("1f64f", 90), (20, 300))
+            fr.alpha_composite(m6.emoji("1f4b0", 80), (410, 300))
+    return base_frames(rd, ((S - rd.width) // 2, 70), ((250, 250), 70, 35, 0.35, math.pi - 0.35),
+                       [("Gracias a Dios", 84, 10), ("y a la Virgen", 76, 412)], extras, seed=7, face=(170, 80, 360, 230))
+
+
 if __name__ == "__main__":
-    for name in sys.argv[1:] or ("enamorado", "hummers", "bien_loco", "tu_boca", "culiacan", "arremangado"):
+    for name in sys.argv[1:] or ("enamorado", "hummers", "bien_loco", "tu_boca", "culiacan", "arremangado", "gracias_dios"):
         frames, delays = globals()[name]()
         d = os.path.join(here, "buchframes", name); os.makedirs(d, exist_ok=True)
         for f in os.listdir(d):

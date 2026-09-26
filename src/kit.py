@@ -106,8 +106,16 @@ def nel():
     return fr
 
 
+def gracias_dios():
+    fl = m6.load("m6/FANMADE_Excited_Fluttershy_vector_by_Myardius.png", w=500)
+    fr = Image.new("RGBA", (S, S))
+    fr.alpha_composite(fl, ((S - fl.width) // 2, S - fl.height - 40))
+    m6.meme_text(fr, "GRACIAS A DIOS", size=96, y=450)
+    return fr
+
+
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
-    for name in ("ya_voy", "jajaja", "no", "gracias", "moai_q", "ah_bueno", "dormir", "nel"):
+    for name in ("ya_voy", "jajaja", "no", "gracias", "moai_q", "ah_bueno", "dormir", "nel", "gracias_dios"):
         globals()[name]().save(os.path.join(OUT, name + ".png"))
         print(name)

@@ -95,6 +95,7 @@ CARDS = [
     (15, "maravilloso.", "adj. — elogio con tono sospechoso", YELLOW, BLACK, RED),
     (16, "lo sé.", "", KLEIN, PAPER, YELLOW),
     (17, "yo también.", "loc. — reciprocidad, sin garantía", PAPER, RED),
+    (18, "gracias a dios.", "loc. — alivio, fe opcional", PAPER, KLEIN, YELLOW),
 ]
 
 if __name__ == "__main__":
