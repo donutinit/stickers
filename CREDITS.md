@@ -21,6 +21,15 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `dore_leviatan.jpg`: [Destruction of Leviathan.png](https://commons.wikimedia.org/wiki/File:Destruction_of_Leviathan.png)
 - `goya_perro.jpg`: [Goya Dog.jpg](https://commons.wikimedia.org/wiki/File:Goya_Dog.jpg)
 
+## Black metal (`src/bm/`, stickers `bm_*`)
+
+- `pesta.jpg`: [Theodor Kittelsen - Pesta i trappen, 1896 (Pesta on the Stairs).jpg](https://commons.wikimedia.org/wiki/File:Theodor_Kittelsen_-_Pesta_i_trappen,_1896_(Pesta_on_the_Stairs).jpg) — Theodor Kittelsen, Public domain
+- `nokken.jpg`: [Kittelsen - Nøkken (Nasjonalmuseet)2.jpg](https://commons.wikimedia.org/wiki/File:Kittelsen_-_N%C3%B8kken_(Nasjonalmuseet)2.jpg) — Theodor Kittelsen, Public domain
+- `holbein_abad.jpg`: [The Abbot, from The Dance of Death, by Hans Holbein the Younger.jpg](https://commons.wikimedia.org/wiki/File:The_Abbot,_from_The_Dance_of_Death,_by_Hans_Holbein_the_Younger.jpg) — Hans Holbein the Younger, Public domain
+- `holbein_dama.jpg`: [Hans Holbein d. J. - The Noble Lady from Dance of Death - WGA11614.jpg](https://commons.wikimedia.org/wiki/File:Hans_Holbein_d._J._-_The_Noble_Lady_from_Dance_of_Death_-_WGA11614.jpg) — Hans Holbein the Younger, Public domain
+- `bosque.jpg`: [Dülmen, Kirchspiel, Bauerschaft Börnste -- 2021 -- 4408 (bw).jpg](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_Bauerschaft_B%C3%B6rnste_--_2021_--_4408_(bw).jpg) — Dietmar Rabich, CC BY-SA 4.0 (el sticker es obra derivada, misma licencia)
+- `iglesia.jpg`: [Heddal stave church winter.jpg](https://commons.wikimedia.org/wiki/File:Heddal_stave_church_winter.jpg) — Eelco Cramer, CC BY 2.0
+
 ## Imágenes de ponis
 
 | Archivo | Fuente |
