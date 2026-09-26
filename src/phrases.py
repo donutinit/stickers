@@ -138,25 +138,29 @@ def ochenta():
     frames, delays = [], []
     TOP = "TE PUEDO ESPERAR A LOS 80 AÑOS"
     BOT = "Y ME VAS A SEGUIR PELANDO LA VERGA"
-    for i in range(18):
-        age = 0 if i < 4 else min(1, (i - 4) / 5)
+    # (age, caption?, bottom text?, ms). Holds are split into <=750ms frames that differ slightly (tiny bob),
+    # so the encoder can't merge them into one long frame, which WhatsApp tends to cut short.
+    seq = [(0, False, False, 670)] * 3 \
+        + [(k / 4, True, False, 360) for k in range(5)] \
+        + [(1, False, False, 750)] * 2 \
+        + [(1, False, True, 670)] * 6
+    for i, (age, caption, bottom, ms) in enumerate(seq):
+        bob = (0, 2, 0, -2)[i % 4]
         fr = Image.new("RGBA", (S, S))
-        body = gray_mane(ra, age)
-        fr.alpha_composite(body, (ox, oy))
+        fr.alpha_composite(gray_mane(ra, age), (ox, oy + bob))
         if age >= 1:  # old-lady props
-            fr.alpha_composite(m6.emoji("1f453", 78), (ox + int(0.50 * ra.width), oy + int(0.10 * ra.height)))
+            fr.alpha_composite(m6.emoji("1f453", 78), (ox + int(0.50 * ra.width), oy + bob + int(0.10 * ra.height)))
             fr.alpha_composite(m6.emoji("1f9af", 110).rotate(-10, expand=True), (ox + ra.width - 40, oy + ra.height - 150))
         fr = sepia(fr, 0.4 * age)
-        if 4 <= i < 10:  # SpongeBob-style caption card
-            d = ImageDraw.Draw(fr)
+        if caption:  # SpongeBob-style caption card
             cap = m6.grad_text("80 años después...", m6.PACIFICO, 64, [(255, 240, 120), (255, 190, 60), (255, 240, 120)], i / 6,
                                stroke=(90, 40, 0), glow=(255, 200, 80), shadow=(60, 30, 0))
             fr.alpha_composite(cap, ((S - cap.width) // 2, 230 - cap.height // 2))
         m6.meme_block(fr, TOP, 6, top=True, size=56, max_lines=2)
-        if i >= 11:
+        if bottom:
             m6.meme_block(fr, BOT, 506, top=False, size=54, max_lines=2)
         frames.append(fr)
-        delays.append(1200 if i == 3 else 3000 if i == 17 else 200 if 4 <= i < 10 else 150)
+        delays.append(ms)
     return frames, delays
 
 
