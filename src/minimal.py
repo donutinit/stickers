@@ -92,6 +92,7 @@ CARDS = [
     (12, "no tengo nada en contra tu punto, pero me estás hablando como si me aguantaras un vergazo.", "loc. — diplomacia mexicana", BLACK, PAPER, RED),
     (13, "intrínseco.", "adj. — palabra para ganar discusiones", PAPER, BLACK, KLEIN),
     (14, "es broma. pero si quieres no es broma.", "loc. — cláusula de salida", RED, PAPER),
+    (15, "maravilloso.", "adj. — elogio con tono sospechoso", YELLOW, BLACK, RED),
 ]
 
 if __name__ == "__main__":
