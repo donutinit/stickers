@@ -33,6 +33,10 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/tias/pinkie_buenos_dias_alegria.webp" width="128" title="pinkie_buenos_dias_alegria"> <img src="packs/tias/st1_buenos_dias.webp" width="128" title="st1_buenos_dias"> <img src="packs/tias/st1_buenos_dias_transparente.webp" width="128" title="st1_buenos_dias_transparente"> <img src="packs/tias/st2_fin_de_semana.webp" width="128" title="st2_fin_de_semana"> <img src="packs/tias/st2_fin_de_semana_transparente.webp" width="128" title="st2_fin_de_semana_transparente"> <img src="packs/tias/st3_buenas_noches.webp" width="128" title="st3_buenas_noches"> <img src="packs/tias/st3_buenas_noches_transparente.webp" width="128" title="st3_buenas_noches_transparente"> <img src="packs/tias/st4_lindo_dia.webp" width="128" title="st4_lindo_dia"> <img src="packs/tias/st4_lindo_dia_transparente.webp" width="128" title="st4_lindo_dia_transparente"> <img src="packs/tias/ti_ahorcar_rukas.webp" width="128" title="ti_ahorcar_rukas"> <img src="packs/tias/ti_feliz_lunes.webp" width="128" title="ti_feliz_lunes"> <img src="packs/tias/ti_feliz_viernes.webp" width="128" title="ti_feliz_viernes"> <img src="packs/tias/ti_vete_alv.webp" width="128" title="ti_vete_alv"> <img src="packs/tias/twilight_que_te_valga.webp" width="128" title="twilight_que_te_valga">
 
+### Buchones (animados) — `packs/buchones` (5)
+
+<img src="packs/buchones/buchon_bien_loco.webp" width="128" title="buchon_bien_loco"> <img src="packs/buchones/buchon_culiacan.webp" width="128" title="buchon_culiacan"> <img src="packs/buchones/buchon_enamorado.webp" width="128" title="buchon_enamorado"> <img src="packs/buchones/buchon_hummers.webp" width="128" title="buchon_hummers"> <img src="packs/buchones/buchon_tu_boca.webp" width="128" title="buchon_tu_boca">
+
 ### Moai (animados) — `packs/moai-animado` (5)
 
 <img src="packs/moai-animado/moai_ceja.webp" width="128" title="moai_ceja"> <img src="packs/moai-animado/moai_edit.webp" width="128" title="moai_edit"> <img src="packs/moai-animado/moai_gigachad.webp" width="128" title="moai_gigachad"> <img src="packs/moai-animado/moai_gigachad_pregunta.webp" width="128" title="moai_gigachad_pregunta"> <img src="packs/moai-animado/moai_lentes.webp" width="128" title="moai_lentes">
@@ -63,6 +67,7 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `moai.py`, `moai2.py`, `moai3.py`, `moai_common.py`, `moai_pregunta.py` | moai gigachad, edit con cámara, serie (ceja, vino, ok, lentes, es verdad) |
 | `arte.py` | Goya y Doré enmarcados con placa de museo |
 | `minimal.py` | tipografía estilo suizo (Inter, color plano) |
+| `buchon.py` | buchones inspirados en "Chico Enamorado" de El Ezequiel (greca dorada, letra gótica de oro, lluvia de billetes) |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 
