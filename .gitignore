@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+src/*frames/
+src/frames/
+src/out/
+src/*out/
+src/sheet.png
+src/*_dbg.png
