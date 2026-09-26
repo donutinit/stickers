@@ -17,9 +17,9 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/arte/arte_aquelarre.webp" width="128" title="arte_aquelarre"> <img src="packs/arte/arte_bosque.webp" width="128" title="arte_bosque"> <img src="packs/arte/arte_cuervo.webp" width="128" title="arte_cuervo"> <img src="packs/arte/arte_estigia.webp" width="128" title="arte_estigia"> <img src="packs/arte/arte_leviatan.webp" width="128" title="arte_leviatan"> <img src="packs/arte/arte_perro.webp" width="128" title="arte_perro"> <img src="packs/arte/arte_satan.webp" width="128" title="arte_satan"> <img src="packs/arte/arte_satan_no.webp" width="128" title="arte_satan_no"> <img src="packs/arte/arte_saturno.webp" width="128" title="arte_saturno">
 
-### Minimal (fijos) — `packs/minimal` (15)
+### Minimal (fijos) — `packs/minimal` (17)
 
-<img src="packs/minimal/min_01.webp" width="128" title="min_01"> <img src="packs/minimal/min_02.webp" width="128" title="min_02"> <img src="packs/minimal/min_03.webp" width="128" title="min_03"> <img src="packs/minimal/min_04.webp" width="128" title="min_04"> <img src="packs/minimal/min_05.webp" width="128" title="min_05"> <img src="packs/minimal/min_06.webp" width="128" title="min_06"> <img src="packs/minimal/min_07.webp" width="128" title="min_07"> <img src="packs/minimal/min_08.webp" width="128" title="min_08"> <img src="packs/minimal/min_09.webp" width="128" title="min_09"> <img src="packs/minimal/min_10.webp" width="128" title="min_10"> <img src="packs/minimal/min_11.webp" width="128" title="min_11"> <img src="packs/minimal/min_12.webp" width="128" title="min_12"> <img src="packs/minimal/min_13.webp" width="128" title="min_13"> <img src="packs/minimal/min_14.webp" width="128" title="min_14"> <img src="packs/minimal/min_15.webp" width="128" title="min_15">
+<img src="packs/minimal/min_01.webp" width="128" title="min_01"> <img src="packs/minimal/min_02.webp" width="128" title="min_02"> <img src="packs/minimal/min_03.webp" width="128" title="min_03"> <img src="packs/minimal/min_04.webp" width="128" title="min_04"> <img src="packs/minimal/min_05.webp" width="128" title="min_05"> <img src="packs/minimal/min_06.webp" width="128" title="min_06"> <img src="packs/minimal/min_07.webp" width="128" title="min_07"> <img src="packs/minimal/min_08.webp" width="128" title="min_08"> <img src="packs/minimal/min_09.webp" width="128" title="min_09"> <img src="packs/minimal/min_10.webp" width="128" title="min_10"> <img src="packs/minimal/min_11.webp" width="128" title="min_11"> <img src="packs/minimal/min_12.webp" width="128" title="min_12"> <img src="packs/minimal/min_13.webp" width="128" title="min_13"> <img src="packs/minimal/min_14.webp" width="128" title="min_14"> <img src="packs/minimal/min_15.webp" width="128" title="min_15"> <img src="packs/minimal/min_16.webp" width="128" title="min_16"> <img src="packs/minimal/min_17.webp" width="128" title="min_17">
 
 ### Black metal (fijos) — `packs/black-metal` (17)
 
@@ -40,6 +40,10 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 ### Buchones (animados) — `packs/buchones` (6)
 
 <img src="packs/buchones/buchon_arremangado.webp" width="128" title="buchon_arremangado"> <img src="packs/buchones/buchon_bien_loco.webp" width="128" title="buchon_bien_loco"> <img src="packs/buchones/buchon_culiacan.webp" width="128" title="buchon_culiacan"> <img src="packs/buchones/buchon_enamorado.webp" width="128" title="buchon_enamorado"> <img src="packs/buchones/buchon_hummers.webp" width="128" title="buchon_hummers"> <img src="packs/buchones/buchon_tu_boca.webp" width="128" title="buchon_tu_boca">
+
+### Kratos cute (animados) — `packs/kratos` (10)
+
+<img src="packs/kratos/kratos_buenos_dias.webp" width="128" title="kratos_buenos_dias"> <img src="packs/kratos/kratos_cuidate.webp" width="128" title="kratos_cuidate"> <img src="packs/kratos/kratos_descansa.webp" width="128" title="kratos_descansa"> <img src="packs/kratos/kratos_estas_linda.webp" width="128" title="kratos_estas_linda"> <img src="packs/kratos/kratos_lo_se.webp" width="128" title="kratos_lo_se"> <img src="packs/kratos/kratos_lo_se_enojado.webp" width="128" title="kratos_lo_se_enojado"> <img src="packs/kratos/kratos_muchas_gracias.webp" width="128" title="kratos_muchas_gracias"> <img src="packs/kratos/kratos_te_amo.webp" width="128" title="kratos_te_amo"> <img src="packs/kratos/kratos_yo_tambien.webp" width="128" title="kratos_yo_tambien"> <img src="packs/kratos/kratos_yo_tambien_grito.webp" width="128" title="kratos_yo_tambien_grito">
 
 ### Moai (animados) — `packs/moai-animado` (5)
 
@@ -74,6 +78,7 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `buchon.py` | buchones inspirados en "Chico Enamorado" de El Ezequiel (greca dorada, letra gótica de oro, lluvia de billetes) |
 | `blackmetal.py` | black metal: Goya, Munch, Kittelsen, Holbein, bosque e iglesia en blanco y negro oscuro, logo gótico legible y un emoji tierno |
 | `blackmetal_ponis.py` | black metal con ponis: foto de flash, corpse paint |
+| `kratos.py` | Kratos cute: cabeza recortada con rembg, moños, corazones y letra cursiva |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 

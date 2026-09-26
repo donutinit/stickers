@@ -93,6 +93,8 @@ CARDS = [
     (13, "intrínseco.", "adj. — palabra para ganar discusiones", PAPER, BLACK, KLEIN),
     (14, "es broma. pero si quieres no es broma.", "loc. — cláusula de salida", RED, PAPER),
     (15, "maravilloso.", "adj. — elogio con tono sospechoso", YELLOW, BLACK, RED),
+    (16, "lo sé.", "", KLEIN, PAPER, YELLOW),
+    (17, "yo también.", "loc. — reciprocidad, sin garantía", PAPER, RED),
 ]
 
 if __name__ == "__main__":
