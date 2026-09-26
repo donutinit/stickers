@@ -21,9 +21,9 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/minimal/min_01.webp" width="128" title="min_01"> <img src="packs/minimal/min_02.webp" width="128" title="min_02"> <img src="packs/minimal/min_03.webp" width="128" title="min_03"> <img src="packs/minimal/min_04.webp" width="128" title="min_04"> <img src="packs/minimal/min_05.webp" width="128" title="min_05"> <img src="packs/minimal/min_06.webp" width="128" title="min_06"> <img src="packs/minimal/min_07.webp" width="128" title="min_07"> <img src="packs/minimal/min_08.webp" width="128" title="min_08"> <img src="packs/minimal/min_09.webp" width="128" title="min_09"> <img src="packs/minimal/min_10.webp" width="128" title="min_10"> <img src="packs/minimal/min_11.webp" width="128" title="min_11"> <img src="packs/minimal/min_12.webp" width="128" title="min_12"> <img src="packs/minimal/min_13.webp" width="128" title="min_13"> <img src="packs/minimal/min_14.webp" width="128" title="min_14"> <img src="packs/minimal/min_15.webp" width="128" title="min_15">
 
-### Black metal (fijos) — `packs/black-metal` (6)
+### Black metal (fijos) — `packs/black-metal` (17)
 
-<img src="packs/black-metal/bm_abad.webp" width="128" title="bm_abad"> <img src="packs/black-metal/bm_bosque.webp" width="128" title="bm_bosque"> <img src="packs/black-metal/bm_dama.webp" width="128" title="bm_dama"> <img src="packs/black-metal/bm_iglesia.webp" width="128" title="bm_iglesia"> <img src="packs/black-metal/bm_nokken.webp" width="128" title="bm_nokken"> <img src="packs/black-metal/bm_pesta.webp" width="128" title="bm_pesta">
+<img src="packs/black-metal/bm_abad.webp" width="128" title="bm_abad"> <img src="packs/black-metal/bm_bosque.webp" width="128" title="bm_bosque"> <img src="packs/black-metal/bm_capricho.webp" width="128" title="bm_capricho"> <img src="packs/black-metal/bm_dama.webp" width="128" title="bm_dama"> <img src="packs/black-metal/bm_draugen.webp" width="128" title="bm_draugen"> <img src="packs/black-metal/bm_duelo.webp" width="128" title="bm_duelo"> <img src="packs/black-metal/bm_grito.webp" width="128" title="bm_grito"> <img src="packs/black-metal/bm_iglesia.webp" width="128" title="bm_iglesia"> <img src="packs/black-metal/bm_nokken.webp" width="128" title="bm_nokken"> <img src="packs/black-metal/bm_parcas.webp" width="128" title="bm_parcas"> <img src="packs/black-metal/bm_pesta.webp" width="128" title="bm_pesta"> <img src="packs/black-metal/bm_pony_dash.webp" width="128" title="bm_pony_dash"> <img src="packs/black-metal/bm_pony_fluttershy.webp" width="128" title="bm_pony_fluttershy"> <img src="packs/black-metal/bm_pony_moai.webp" width="128" title="bm_pony_moai"> <img src="packs/black-metal/bm_pony_pinkie.webp" width="128" title="bm_pony_pinkie"> <img src="packs/black-metal/bm_pony_twilight.webp" width="128" title="bm_pony_twilight"> <img src="packs/black-metal/bm_sopa.webp" width="128" title="bm_sopa">
 
 ### Moai (fijos) — `packs/moai-estatico` (4)
 
@@ -72,7 +72,8 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `arte.py` | Goya y Doré enmarcados con placa de museo |
 | `minimal.py` | tipografía estilo suizo (Inter, color plano) |
 | `buchon.py` | buchones inspirados en "Chico Enamorado" de El Ezequiel (greca dorada, letra gótica de oro, lluvia de billetes) |
-| `blackmetal.py` | black metal: Kittelsen, Holbein, bosque nevado e iglesia de madera en blanco y negro oscuro, logo con espinas y un emoji tierno |
+| `blackmetal.py` | black metal: Goya, Munch, Kittelsen, Holbein, bosque e iglesia en blanco y negro oscuro, logo gótico legible y un emoji tierno |
+| `blackmetal_ponis.py` | black metal con ponis: foto de flash, corpse paint |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 

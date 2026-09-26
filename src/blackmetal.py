@@ -60,43 +60,53 @@ def corpse_paint(im, eyes, mouth, seed):
 
 
 def spiky_logo(txt, width=490, seed=0):
-    """white gothic word grown into a thorny, barely readable black-metal logo."""
+    """white gothic phrase with a few short thorns and a dark halo so it stays readable; long phrases go on two lines."""
     rnd = random.Random(seed)
-    f = m6.fit_font(GOTHIC, txt, 150, width - 60, 0)
-    l, t, r, b = f.getbbox(txt)
-    pad = 70
-    W, H = r - l + 2 * pad, b - t + 2 * pad
+    words = txt.split()
+    lines = [txt]
+    if len(txt) > 11 and len(words) > 1:  # split into two balanced lines
+        k = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
+        lines = [" ".join(words[:k]), " ".join(words[k:])]
+    f = ImageFont.truetype(GOTHIC, 130)
+    while max(f.getlength(l) for l in lines) > width - 90 and f.size > 30:
+        f = f.font_variant(size=f.size - 3)
+    lh = int(f.size * 0.95)
+    pad = 60
+    W = int(max(f.getlength(l) for l in lines)) + 2 * pad
+    H = lh * len(lines) + 2 * pad
     mask = Image.new("L", (W, H))
-    ImageDraw.Draw(mask).text((pad - l, pad - t), txt, font=f, fill=255)
+    md = ImageDraw.Draw(mask)
+    for k, l in enumerate(lines):
+        md.text((W / 2, pad + lh * k + lh / 2), l, font=f, fill=255, anchor="mm")
+    letters = mask.copy()
     a = np.asarray(mask) > 128
     edge = a & ~np.asarray(mask.filter(ImageFilter.MinFilter(3))).astype(bool)
     ys, xs = np.nonzero(edge)
     blur = np.asarray(mask.filter(ImageFilter.GaussianBlur(4))).astype(float)
     gy, gx = np.gradient(blur)
-    d = ImageDraw.Draw(mask)
-    idx = list(range(len(xs)))
-    rnd.shuffle(idx)
-    for i in idx[:90]:
+    idx = list(range(len(xs))); rnd.shuffle(idx)
+    placed = 0
+    for i in idx:
+        if placed >= 28:
+            break
         x, y = xs[i], ys[i]
         nx, ny = -gx[y, x], -gy[y, x]
         n = math.hypot(nx, ny)
-        if n < 1e-3:
-            continue
+        if n < 1e-3 or abs(ny / n) < 0.8:
+            continue  # only straight up/down thorns: the letter shapes stay intact
         nx, ny = nx / n, ny / n
-        vertical = abs(ny) > 0.6
-        if not vertical and rnd.random() < 0.7:
-            continue  # thorns mostly grow up and down
-        L = rnd.uniform(6, 14) + (rnd.uniform(8, 30) if vertical else 0)
-        ex, ey = x + nx * L, y + ny * L
-        px, py = -ny * 2.6, nx * 2.6  # base half-width
-        d.polygon([(x + px, y + py), (x - px, y - py), (ex, ey)], fill=255)
-    # long symmetric thorns off both ends of the word
+        L = rnd.uniform(8, 20)
+        md.polygon([(x - 2.2, y), (x + 2.2, y), (x + nx * L, y + ny * L)], fill=255)
+        placed += 1
     cy = H / 2
-    for s_, x0 in ((-1, pad - 6), (1, W - pad + 6)):
-        for k, (dy, L) in enumerate(((-18, 60), (0, 70), (16, 50))):
-            d.polygon([(x0, cy + dy - 3), (x0, cy + dy + 3), (x0 + s_ * L, cy + dy + s_ * rnd.uniform(-8, 8))], fill=255)
-    logo = Image.new("RGBA", (W, H), (255, 255, 255, 0))
-    logo.putalpha(mask)
+    for s_, x0 in ((-1, pad - 8), (1, W - pad + 8)):  # side thorns
+        for dy, L in ((-10, 42), (8, 30)):
+            md.polygon([(x0, cy + dy - 3), (x0, cy + dy + 3), (x0 + s_ * L, cy + dy)], fill=255)
+    halo = mask.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(6))
+    logo = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    logo.putalpha(halo.point(lambda v: min(255, v * 2)))
+    white = Image.new("RGBA", (W, H), (255, 255, 255, 0)); white.putalpha(mask)
+    logo.alpha_composite(white)
     sc = min(1.0, width / W)
     return logo.resize((int(W * sc), int(H * sc)), Image.LANCZOS)
 
@@ -136,7 +146,8 @@ def grim(img, crop, invert=False, gamma=1.0, gain=1.0, emojis=(), logo_txt="", s
     buf = io.BytesIO(); out.save(buf, "JPEG", quality=30); buf.seek(0)
     out = Image.open(buf).convert("RGBA")
     logo = spiky_logo(logo_txt, seed=seed)
-    out.alpha_composite(logo, ((S - logo.width) // 2, logo_y))
+    y = logo_y if logo_y >= 0 else S - logo.height + logo_y  # negative = anchored to the bottom
+    out.alpha_composite(logo, ((S - logo.width) // 2, y))
     for code, x, y, sz in emojis:
         out.alpha_composite(m6.emoji(code, sz), (x, y))
     return m6.rounded(out, 26)
@@ -150,6 +161,12 @@ PIECES = {
     "dama":      ("holbein_dama.jpg", (0.04, 0.1, 0.96, 0.95), True, 1.4, 1.1, "te amo", [("1f97a", 380, 385, 100)], 6),
     "bosque":    ("bosque.jpg", (0.2, 0, 0.87, 1), True, 1.2, 1.0, "vete alv", [("1f97a", 30, 390, 100)], 6),
     "iglesia":   ("iglesia.jpg", (0, 0.1, 1, 0.85), False, 1.8, 1.0, "intrínseco", [("1f97a", 380, 390, 100)], 6),
+    "sopa":      ("goya_sopa.jpg", (0.05, 0, 0.72, 1), False, 1.3, 1.25, "oki doki", [("1f97a", 390, 395, 100)], 6),
+    "parcas":    ("goya_parcas.jpg", (0.28, 0, 0.78, 1), False, 1.3, 1.3, "no autorizo", [("1f449", 330, 410, 80), ("1f448", 420, 410, 80)], 6),
+    "duelo":     ("goya_duelo.jpg", (0.02, 0, 0.52, 1), False, 1.2, 1.2, "es broma", [("1f97a", 390, 395, 100)], 6),
+    "capricho":  ("goya_capricho43.jpg", (0.04, 0.05, 0.96, 0.66), True, 1.3, 1.1, "maravilloso", [("1f495", 30, 400, 90)], 6),
+    "draugen":   ("kittelsen_draugen.jpg", (0.2, 0, 0.9, 1), True, 1.4, 1.1, "ni en su casa lo conocen", [("1f97a", 390, 400, 100)], 6),
+    "grito":     ("munch_grito.jpg", (0.2, 0.32, 0.76, 0.754), False, 1.5, 0.85, "aterrado absoluto", [("1f97a", 400, 14, 96)], -2),
 }
 
 

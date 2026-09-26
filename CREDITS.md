@@ -29,6 +29,12 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `holbein_dama.jpg`: [Hans Holbein d. J. - The Noble Lady from Dance of Death - WGA11614.jpg](https://commons.wikimedia.org/wiki/File:Hans_Holbein_d._J._-_The_Noble_Lady_from_Dance_of_Death_-_WGA11614.jpg) — Hans Holbein the Younger, Public domain
 - `bosque.jpg`: [Dülmen, Kirchspiel, Bauerschaft Börnste -- 2021 -- 4408 (bw).jpg](https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_Bauerschaft_B%C3%B6rnste_--_2021_--_4408_(bw).jpg) — Dietmar Rabich, CC BY-SA 4.0 (el sticker es obra derivada, misma licencia)
 - `iglesia.jpg`: [Heddal stave church winter.jpg](https://commons.wikimedia.org/wiki/File:Heddal_stave_church_winter.jpg) — Eelco Cramer, CC BY 2.0
+- `goya_sopa.jpg`: [Viejos comiendo sopa.jpg](https://commons.wikimedia.org/wiki/File:Viejos_comiendo_sopa.jpg) — Francisco Goya / Francisco Goya, Public domain
+- `goya_parcas.jpg`: [Francisco de Goya, The Fates (Atropos).JPG](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_The_Fates_(Atropos).JPG) — Francisco de Goya, Public domain
+- `goya_duelo.jpg`: [Duelo a garrotazos de Goya fotografíado por J. Laurent (sin marco2).jpg](https://commons.wikimedia.org/wiki/File:Duelo_a_garrotazos_de_Goya_fotograf%C3%ADado_por_J._Laurent_(sin_marco2).jpg) — Duelo_a_garrotazos_de_Goya_fotografíado_por_J._Laurent_(sin_marco).jpg: *Duelo_a, Public domain
+- `goya_capricho43.jpg`: [Francisco José de Goya y Lucientes - The sleep of reason produces monsters (No. 43), from Los Caprichos - Google Art Project.jpg](https://commons.wikimedia.org/wiki/File:Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43),_from_Los_Caprichos_-_Google_Art_Project.jpg) — Francisco Goya, Public domain
+- `kittelsen_draugen.jpg`: [Draugen.jpg](https://commons.wikimedia.org/wiki/File:Draugen.jpg) — Theodor Kittelsen, Public domain
+- `munch_grito.jpg`: [The Scream MET DP860367.jpg](https://commons.wikimedia.org/wiki/File:The_Scream_MET_DP860367.jpg) — Edvard Munch (Metropolitan Museum of Art), CC0
 
 ## Imágenes de ponis
 
