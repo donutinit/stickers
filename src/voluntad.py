@@ -69,7 +69,7 @@ def v_arte():
 
 
 def v_minimal():
-    return minimal.card(19, "que sea la voluntad de dios.", "loc. — delegar responsabilidades", minimal.BLACK, minimal.PAPER, minimal.YELLOW)
+    return minimal.card(19, "que sea la voluntad de dios.", "loc. — juntos hacemos nuestra parte", minimal.BLACK, minimal.PAPER, minimal.YELLOW)
 
 
 def v_blackmetal():
