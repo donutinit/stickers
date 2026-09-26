@@ -184,17 +184,17 @@ def domingo():
     W0, H0 = body.size
     ImageDraw.Draw(body).rectangle([int(0.52 * W0), 0, int(0.78 * W0), int(0.105 * H0)], fill=(0, 0, 0, 0))  # remove his own head, keep the neck
     body = body.crop(body.getbbox())
-    sx, sy = 1.34, 0.56  # squashed: wide and short
+    sx, sy = 1.34, 0.47  # squashed: wide and short
     body = body.resize((int(body.width * sx), int(body.height * sy)), Image.LANCZOS)
     neck_x = int(0.64 * W0 * sx)  # neck position in the squashed body
-    big = head("kratos_serio.png", int(0.2 * H0 * sx))  # head at normal (un-squashed) scale, a bit generous
+    big = head("kratos_serio.png", int(0.25 * H0 * sx))  # head at normal (un-squashed) scale, a bit generous
     for code, xy, r in (("1f339", (-10, 330), -15), ("1f339", (430, 320), 15), ("1f338", (440, 150), 0), ("1f338", (8, 160), 0)):
         bg.alpha_composite(m6.emoji(code, 76).rotate(r, expand=True), xy)
     frames = []
     for i in range(N):
         t = i / N
         fr = bg.copy()
-        bx, by = (S - body.width) // 2, 178
+        bx, by = (S - body.width) // 2, 168
         fr.alpha_composite(body, (bx, by))
         h2 = big.rotate(15 * math.sin(2 * math.pi * t), expand=True, resample=Image.BICUBIC)  # bobblehead wobble, ±15°
         hc = (bx + neck_x, by + 6 - big.height * 0.42)  # chin rests on the neck
