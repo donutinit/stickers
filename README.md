@@ -21,6 +21,10 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/minimal/min_01.webp" width="128" title="min_01"> <img src="packs/minimal/min_02.webp" width="128" title="min_02"> <img src="packs/minimal/min_03.webp" width="128" title="min_03"> <img src="packs/minimal/min_04.webp" width="128" title="min_04"> <img src="packs/minimal/min_05.webp" width="128" title="min_05"> <img src="packs/minimal/min_06.webp" width="128" title="min_06"> <img src="packs/minimal/min_07.webp" width="128" title="min_07"> <img src="packs/minimal/min_08.webp" width="128" title="min_08"> <img src="packs/minimal/min_09.webp" width="128" title="min_09"> <img src="packs/minimal/min_10.webp" width="128" title="min_10"> <img src="packs/minimal/min_11.webp" width="128" title="min_11"> <img src="packs/minimal/min_12.webp" width="128" title="min_12"> <img src="packs/minimal/min_13.webp" width="128" title="min_13"> <img src="packs/minimal/min_14.webp" width="128" title="min_14">
 
+### Black metal (fijos) — `packs/black-metal` (5)
+
+<img src="packs/black-metal/bm_dash.webp" width="128" title="bm_dash"> <img src="packs/black-metal/bm_fluttershy.webp" width="128" title="bm_fluttershy"> <img src="packs/black-metal/bm_moai.webp" width="128" title="bm_moai"> <img src="packs/black-metal/bm_pinkie.webp" width="128" title="bm_pinkie"> <img src="packs/black-metal/bm_twilight.webp" width="128" title="bm_twilight">
+
 ### Moai (fijos) — `packs/moai-estatico` (4)
 
 <img src="packs/moai-estatico/moai_es_verdad.webp" width="128" title="moai_es_verdad"> <img src="packs/moai-estatico/moai_ok.webp" width="128" title="moai_ok"> <img src="packs/moai-estatico/moai_pregunta.webp" width="128" title="moai_pregunta"> <img src="packs/moai-estatico/moai_vino.webp" width="128" title="moai_vino">
@@ -68,6 +72,7 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `arte.py` | Goya y Doré enmarcados con placa de museo |
 | `minimal.py` | tipografía estilo suizo (Inter, color plano) |
 | `buchon.py` | buchones inspirados en "Chico Enamorado" de El Ezequiel (greca dorada, letra gótica de oro, lluvia de billetes) |
+| `blackmetal.py` | black metal: foto de flash granulosa, corpse paint, logo con espinas y un emoji tierno |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 
