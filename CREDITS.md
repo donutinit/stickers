@@ -6,7 +6,7 @@ El código (`src/*.py`, `src/*.sh`) es MIT. Todo lo demás es de sus autores:
 - **Kratos** (*God of War*) © Sony Interactive Entertainment / Santa Monica Studio. Imágenes promocionales y capturas en `src/kratos/`, usadas como fan art sin fines de lucro; fondo quitado con [rembg](https://github.com/danielgatis/rembg).
 - **Foto del moai** (`src/moai_big.jpg` y todos los stickers `moai_*`): [Michael Barera](https://commons.wikimedia.org/wiki/User:Michael_Barera), *Milwaukee Public Museum February 2023 19 (Oceania--The Living Faces of Rapa Nui)*, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum_February_2023_19_(Oceania--The_Living_Faces_of_Rapa_Nui).jpg). Los stickers del moai son obras derivadas (recorte, blanco y negro, animación) y se comparten bajo la misma licencia CC BY-SA 4.0.
 - **Emojis** (`src/emoji/`): [Twemoji](https://github.com/jdecked/twemoji), © Twitter, Inc. y colaboradores, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico), [Rye](https://fonts.google.com/specimen/Rye), [EB Garamond](https://github.com/octaviopardo/EBGaramond12), [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia), [Playfair Display](https://github.com/clauseggers/Playfair) e [Inter](https://github.com/rsms/inter), SIL Open Font License 1.1 (`src/OFL-*.txt`, `src/fonts/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
+- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico), [New Rocker](https://fonts.google.com/specimen/New+Rocker), [Rye](https://fonts.google.com/specimen/Rye), [EB Garamond](https://github.com/octaviopardo/EBGaramond12), [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia), [Playfair Display](https://github.com/clauseggers/Playfair) e [Inter](https://github.com/rsms/inter), SIL Open Font License 1.1 (`src/OFL-*.txt`, `src/fonts/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
 
 ## Pinturas y grabados (`src/arte/`, stickers `arte_*`)
 
@@ -21,6 +21,7 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `dore_cuervo.jpg`: [Dore raven shadow2.jpg](https://commons.wikimedia.org/wiki/File:Dore_raven_shadow2.jpg)
 - `dore_leviatan.jpg`: [Destruction of Leviathan.png](https://commons.wikimedia.org/wiki/File:Destruction_of_Leviathan.png)
 - `dore_paraiso.jpg`: [Doré, Gustave - Paradiso Canto 31.jpg](https://commons.wikimedia.org/wiki/File:Dor%C3%A9,_Gustave_-_Paradiso_Canto_31.jpg)
+- `dore_paraiso_perdido.jpg`: [Paradise Lost 12.jpg](https://commons.wikimedia.org/wiki/File:Paradise_Lost_12.jpg)
 - `goya_perro.jpg`: [Goya Dog.jpg](https://commons.wikimedia.org/wiki/File:Goya_Dog.jpg)
 
 ## Black metal (`src/bm/`, stickers `bm_*`)

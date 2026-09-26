@@ -64,7 +64,11 @@ def spiky_logo(txt, width=490, seed=0):
     rnd = random.Random(seed)
     words = txt.split()
     lines = [txt]
-    if len(txt) > 11 and len(words) > 1:  # split into two balanced lines
+    if len(txt) > 22 and len(words) > 2:  # three balanced lines for very long phrases
+        best = min(((i, j) for i in range(1, len(words) - 1) for j in range(i + 1, len(words))),
+                   key=lambda ij: max(len(" ".join(words[:ij[0]])), len(" ".join(words[ij[0]:ij[1]])), len(" ".join(words[ij[1]:]))))
+        lines = [" ".join(words[:best[0]]), " ".join(words[best[0]:best[1]]), " ".join(words[best[1]:])]
+    elif len(txt) > 11 and len(words) > 1:  # split into two balanced lines
         k = min(range(1, len(words)), key=lambda k: abs(len(" ".join(words[:k])) - len(" ".join(words[k:]))))
         lines = [" ".join(words[:k]), " ".join(words[k:])]
     f = ImageFont.truetype(GOTHIC, 150)

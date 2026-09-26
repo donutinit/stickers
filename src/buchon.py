@@ -7,7 +7,7 @@ import m6
 S = 512
 N = 12
 here = os.path.dirname(os.path.abspath(__file__))
-GOTHIC = os.path.join(here, "fonts", "UnifrakturMaguntia.ttf")
+GOTHIC = os.path.join(here, "fonts", "NewRocker.ttf")  # Fraktur V read as B
 GOLD_STOPS = [(255, 240, 170), (212, 160, 40), (255, 225, 120), (150, 100, 20), (255, 240, 170)]
 
 
