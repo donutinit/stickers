@@ -28,7 +28,7 @@ Stickers de WhatsApp para el dueño del repo (español mexicano, humor irónico 
 - Sistema: `cwebp`, `img2webp`, `webpmux` (libwebp-tools), `magick`, `gh`. Impact en `~/.local/share/fonts/Impact.TTF`.
 - rembg: modelos `isnet-general-use` (general) y `u2net_human_seg` (personas, cuando el general deja fondo). Limpia islas sueltas con `scipy.ndimage.label`; objetos pegados al sujeto se quitan por color.
 - Fotos reales: Wikimedia Commons (Unsplash bloquea bots y su API pide clave). La API a veces responde vacío por rate limit: reintentar con backoff y User-Agent propio.
-- **wacli no está en lizeth.** Los stickers de prueba se mandan desde la laptop del dueño: allá hace `ssh lizeth cat ~/src/stickers/packs/<pack>/<x>.webp > /tmp/x.webp && wacli send sticker --file /tmp/x.webp --to <chat>`. El chat de pruebas es "📝REELS CAPTIONS".
+- **wacli está en lizeth** (`~/.local/bin/wacli`, desde 2026-09-26). Los stickers de prueba se mandan desde aquí: `wacli send sticker --file packs/<pack>/<x>.webp --to 120363422450846847@g.us`. Ese JID es el chat de pruebas "📝REELS CAPTIONS" (`wacli chats list` si cambia).
 
 ## Estructura
 
