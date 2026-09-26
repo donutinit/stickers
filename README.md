@@ -13,6 +13,14 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/respuestas/ah_bueno.webp" width="128" title="ah_bueno"> <img src="packs/respuestas/applejack_respuesta.webp" width="128" title="applejack_respuesta"> <img src="packs/respuestas/dash_respuesta.webp" width="128" title="dash_respuesta"> <img src="packs/respuestas/dash_vergazo.webp" width="128" title="dash_vergazo"> <img src="packs/respuestas/dormir.webp" width="128" title="dormir"> <img src="packs/respuestas/fluttershy_respuesta.webp" width="128" title="fluttershy_respuesta"> <img src="packs/respuestas/fluttershy_vete_alv.webp" width="128" title="fluttershy_vete_alv"> <img src="packs/respuestas/gracias.webp" width="128" title="gracias"> <img src="packs/respuestas/jajaja.webp" width="128" title="jajaja"> <img src="packs/respuestas/nel.webp" width="128" title="nel"> <img src="packs/respuestas/no.webp" width="128" title="no"> <img src="packs/respuestas/pinkie_oki_doki.webp" width="128" title="pinkie_oki_doki"> <img src="packs/respuestas/pinkie_oki_doki_guino.webp" width="128" title="pinkie_oki_doki_guino"> <img src="packs/respuestas/pinkie_respuesta.webp" width="128" title="pinkie_respuesta"> <img src="packs/respuestas/rarity_respuesta.webp" width="128" title="rarity_respuesta"> <img src="packs/respuestas/twilight_autorizo_earrape.webp" width="128" title="twilight_autorizo_earrape"> <img src="packs/respuestas/twilight_no_autorizo_earrape.webp" width="128" title="twilight_no_autorizo_earrape"> <img src="packs/respuestas/twilight_respuesta.webp" width="128" title="twilight_respuesta"> <img src="packs/respuestas/ya_voy.webp" width="128" title="ya_voy">
 
+### Arte clásico (fijos) — `packs/arte` (8)
+
+<img src="packs/arte/arte_aquelarre.webp" width="128" title="arte_aquelarre"> <img src="packs/arte/arte_bosque.webp" width="128" title="arte_bosque"> <img src="packs/arte/arte_cuervo.webp" width="128" title="arte_cuervo"> <img src="packs/arte/arte_estigia.webp" width="128" title="arte_estigia"> <img src="packs/arte/arte_leviatan.webp" width="128" title="arte_leviatan"> <img src="packs/arte/arte_satan.webp" width="128" title="arte_satan"> <img src="packs/arte/arte_satan_no.webp" width="128" title="arte_satan_no"> <img src="packs/arte/arte_saturno.webp" width="128" title="arte_saturno">
+
+### Minimal (fijos) — `packs/minimal` (10)
+
+<img src="packs/minimal/min_01.webp" width="128" title="min_01"> <img src="packs/minimal/min_02.webp" width="128" title="min_02"> <img src="packs/minimal/min_03.webp" width="128" title="min_03"> <img src="packs/minimal/min_04.webp" width="128" title="min_04"> <img src="packs/minimal/min_05.webp" width="128" title="min_05"> <img src="packs/minimal/min_06.webp" width="128" title="min_06"> <img src="packs/minimal/min_07.webp" width="128" title="min_07"> <img src="packs/minimal/min_08.webp" width="128" title="min_08"> <img src="packs/minimal/min_09.webp" width="128" title="min_09"> <img src="packs/minimal/min_10.webp" width="128" title="min_10">
+
 ### Moai (fijos) — `packs/moai-estatico` (4)
 
 <img src="packs/moai-estatico/moai_es_verdad.webp" width="128" title="moai_es_verdad"> <img src="packs/moai-estatico/moai_ok.webp" width="128" title="moai_ok"> <img src="packs/moai-estatico/moai_pregunta.webp" width="128" title="moai_pregunta"> <img src="packs/moai-estatico/moai_vino.webp" width="128" title="moai_vino">
@@ -53,6 +61,8 @@ Necesitas `img2webp`/`cwebp` (libwebp), ImageMagick y `7z` (solo para `get_impac
 | `phrases.py` | frases (vergazo, turbo, que te valga, te amo, 80 años) |
 | `sellos.py` | AUTORIZO / NO AUTORIZO (animados con sello y fijos earrape) |
 | `moai.py`, `moai2.py`, `moai3.py`, `moai_common.py`, `moai_pregunta.py` | moai gigachad, edit con cámara, serie (ceja, vino, ok, lentes, es verdad) |
+| `arte.py` | Goya y Doré enmarcados con placa de museo |
+| `minimal.py` | tipografía estilo suizo (Inter, color plano) |
 | `deepfry.py` | receta de frito (`python deepfry.py <frames> <salida>`) |
 | `encode.sh` | codifica con `-kmin 0 -kmax 1` (todos los frames completos) |
 

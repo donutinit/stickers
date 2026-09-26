@@ -5,7 +5,20 @@ El código (`src/*.py`, `src/*.sh`) es MIT. Todo lo demás es de sus autores:
 - **My Little Pony: Friendship is Magic** y sus personajes © Hasbro. El arte oficial y los vectores fan (archivos `FANMADE_*`) son de sus autores y se tomaron de [mlp.fandom.com](https://mlp.fandom.com); están aquí como fan art sin fines de lucro. Si eres autor de alguno y quieres que lo quite, abre un issue.
 - **Foto del moai** (`src/moai_big.jpg` y todos los stickers `moai_*`): [Michael Barera](https://commons.wikimedia.org/wiki/User:Michael_Barera), *Milwaukee Public Museum February 2023 19 (Oceania--The Living Faces of Rapa Nui)*, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum_February_2023_19_(Oceania--The_Living_Faces_of_Rapa_Nui).jpg). Los stickers del moai son obras derivadas (recorte, blanco y negro, animación) y se comparten bajo la misma licencia CC BY-SA 4.0.
 - **Emojis** (`src/emoji/`): [Twemoji](https://github.com/jdecked/twemoji), © Twitter, Inc. y colaboradores, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico) y [Rye](https://fonts.google.com/specimen/Rye), SIL Open Font License 1.1 (`src/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
+- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico), [Rye](https://fonts.google.com/specimen/Rye), [EB Garamond](https://github.com/octaviopardo/EBGaramond12), [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia), [Playfair Display](https://github.com/clauseggers/Playfair) e [Inter](https://github.com/rsms/inter), SIL Open Font License 1.1 (`src/OFL-*.txt`, `src/fonts/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
+
+## Pinturas y grabados (`src/arte/`, stickers `arte_*`)
+
+Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio público, vía Wikimedia Commons:
+
+- `goya_saturno.jpg`: [Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg)
+- `goya_aquelarre.jpg`: [Francisco de Goya y Lucientes - Witches Sabbath - Google Art Project.jpg](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya_y_Lucientes_-_Witches_Sabbath_-_Google_Art_Project.jpg)
+- `dore_satan.jpg`: [GustaveDoreParadiseLostSatanProfile.jpg](https://commons.wikimedia.org/wiki/File:GustaveDoreParadiseLostSatanProfile.jpg)
+- `dore_satan_despair.jpg`: [Gustave Dore Satan's Despair.jpg](https://commons.wikimedia.org/wiki/File:Gustave_Dore_Satan%27s_Despair.jpg)
+- `dore_estigia.jpg`: [Dante and Virgil walking upon the waters of the Styx, illustration to Dante’s Inferno by Gustave Doré, from The Vision of Hell. New Edition, 1866.jpg](https://commons.wikimedia.org/wiki/File:Dante_and_Virgil_walking_upon_the_waters_of_the_Styx,_illustration_to_Dante%E2%80%99s_Inferno_by_Gustave_Dor%C3%A9,_from_The_Vision_of_Hell._New_Edition,_1866.jpg)
+- `dore_bosque.jpg`: [Gustave Doré - Dante Alighieri - Inferno - Plate 4 (Dante meets Virgil).jpg](https://commons.wikimedia.org/wiki/File:Gustave_Dor%C3%A9_-_Dante_Alighieri_-_Inferno_-_Plate_4_(Dante_meets_Virgil).jpg)
+- `dore_cuervo.jpg`: [Dore raven shadow2.jpg](https://commons.wikimedia.org/wiki/File:Dore_raven_shadow2.jpg)
+- `dore_leviatan.jpg`: [Destruction of Leviathan.png](https://commons.wikimedia.org/wiki/File:Destruction_of_Leviathan.png)
 
 ## Imágenes de ponis
 
