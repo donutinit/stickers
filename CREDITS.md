@@ -55,13 +55,16 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 
 ## Calacas (`src/calacas/`, stickers `calaca_*` y `lot_muerte`)
 
-- `santa_muerte_negra.jpg`: [Sanata Muete Statue crafted by Christina Paul.jpg](https://commons.wikimedia.org/wiki/File:Sanata_Muete_Statue_crafted_by_Christina_Paul.jpg), Maatpublishing, CC0
-- `santa_muerte_color.jpg`: [Santa-muerte-nlaredo2.jpg](https://commons.wikimedia.org/wiki/File:Santa-muerte-nlaredo2.jpg), Not home, Public domain
-- `posada_catrina.jpg`: [La Calavera Catrina J Guadalupe Posada.jpg](https://commons.wikimedia.org/wiki/File:La_Calavera_Catrina_J_Guadalupe_Posada.jpg), José Guadalupe Posada, Public domain
-- `posada_oaxaquena.jpg`: [José Guadalupe Posada, Calavera oaxaqueña, ca. 1903.jpg](https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Guadalupe_Posada,_Calavera_oaxaque%C3%B1a,_ca._1903.jpg), José Guadalupe Posada, Public domain
-- `posada_electrica.jpg`: [Gran calavera eléctrica2.jpg](https://commons.wikimedia.org/wiki/File:Gran_calavera_el%C3%A9ctrica2.jpg), José Guadalupe Posada, Public domain
-- `posada_quijote.jpg`: [Page 1- The calavera of Don Quijote, from '36 Grabados' (Mexico, 1943) MET DP872823.jpg](https://commons.wikimedia.org/wiki/File:Page_1-_The_calavera_of_Don_Quijote,_from_%2736_Grabados%27_(Mexico,_1943)_MET_DP872823.jpg), José Guadalupe Posada / Arsacio Vanegas (Metropolitan Museum of Art), CC0
-- `mariachi.jpg`: [Dia de muertos mariachi.jpg](https://commons.wikimedia.org/wiki/File:Dia_de_muertos_mariachi.jpg), Luisroj96, CC BY-SA 3.0 (el sticker es obra derivada, misma licencia)
+Wallpapers de Santa Muerte y de la parca bajados de wallpaperaccess.com y wallpapercave.com. Autores y licencias: por confirmar (los sitios no dicen de quién son). Se usan como meme; si eres autor de alguno y quieres crédito o que lo quite, abre un issue.
+
+- `trono_rayos.jpg`: https://wallpaperaccess.com/full/7259162.jpg
+- `corona_roja.jpg`: https://wallpapercave.com/wp/wp6666807.jpg
+- `dedo_game_over.jpg`: https://wallpaperaccess.com/full/7259147.jpg
+- `rosas_halo.jpg`: https://wallpaperaccess.com/full/7259138.jpg
+- `calavera_dorada.jpg`: https://wallpaperaccess.com/full/7259121.jpg
+- `reina_orbe.jpg`: https://wallpapercave.com/wp/wp6666806.jpg
+- `roja_blanca.jpg`: https://wallpaperaccess.com/full/7259166.jpg
+- `posada_catrina.jpg` (solo `lot_muerte`): [La Calavera Catrina J Guadalupe Posada.jpg](https://commons.wikimedia.org/wiki/File:La_Calavera_Catrina_J_Guadalupe_Posada.jpg), José Guadalupe Posada, Public domain
 
 ## Desmotivaciones (`src/desmo/`, stickers `desmo_*`)
 

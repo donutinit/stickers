@@ -51,7 +51,7 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 ### calacas — `packs/calacas` (7)
 
-<img src="packs/calacas/calaca_bendiciones.webp" width="128" title="calaca_bendiciones"> <img src="packs/calacas/calaca_catrina_pobre.webp" width="128" title="calaca_catrina_pobre"> <img src="packs/calacas/calaca_me_cargo_el_payaso.webp" width="128" title="calaca_me_cargo_el_payaso"> <img src="packs/calacas/calaca_me_muero_de_risa.webp" width="128" title="calaca_me_muero_de_risa"> <img src="packs/calacas/calaca_muerto_bailando.webp" width="128" title="calaca_muerto_bailando"> <img src="packs/calacas/calaca_ya_alaverga_todo.webp" width="128" title="calaca_ya_alaverga_todo"> <img src="packs/calacas/calaca_ya_voy.webp" width="128" title="calaca_ya_voy">
+<img src="packs/calacas/calaca_bendiciones.webp" width="128" title="calaca_bendiciones"> <img src="packs/calacas/calaca_me_cargo_el_payaso.webp" width="128" title="calaca_me_cargo_el_payaso"> <img src="packs/calacas/calaca_me_muero_de_risa.webp" width="128" title="calaca_me_muero_de_risa"> <img src="packs/calacas/calaca_no_me_busquen.webp" width="128" title="calaca_no_me_busquen"> <img src="packs/calacas/calaca_respeten_a_la_jefa.webp" width="128" title="calaca_respeten_a_la_jefa"> <img src="packs/calacas/calaca_ya_alaverga_todo.webp" width="128" title="calaca_ya_alaverga_todo"> <img src="packs/calacas/calaca_ya_voy.webp" width="128" title="calaca_ya_voy">
 
 ### desmotivaciones — `packs/desmotivaciones` (6)
 
