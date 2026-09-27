@@ -6,7 +6,7 @@ El código (`src/*.py`, `src/*.sh`) es MIT. Todo lo demás es de sus autores:
 - **Kratos** (*God of War*) © Sony Interactive Entertainment / Santa Monica Studio. Imágenes promocionales y capturas en `src/kratos/`, usadas como fan art sin fines de lucro; fondo quitado con [rembg](https://github.com/danielgatis/rembg).
 - **Foto del moai** (`src/moai_big.jpg` y todos los stickers `moai_*`): [Michael Barera](https://commons.wikimedia.org/wiki/User:Michael_Barera), *Milwaukee Public Museum February 2023 19 (Oceania--The Living Faces of Rapa Nui)*, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), vía [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum_February_2023_19_(Oceania--The_Living_Faces_of_Rapa_Nui).jpg). Los stickers del moai son obras derivadas (recorte, blanco y negro, animación) y se comparten bajo la misma licencia CC BY-SA 4.0.
 - **Emojis** (`src/emoji/`): [Twemoji](https://github.com/jdecked/twemoji), © Twitter, Inc. y colaboradores, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico), [New Rocker](https://fonts.google.com/specimen/New+Rocker), [Fredoka](https://fonts.google.com/specimen/Fredoka), [Rye](https://fonts.google.com/specimen/Rye), [EB Garamond](https://github.com/octaviopardo/EBGaramond12), [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia), [Playfair Display](https://github.com/clauseggers/Playfair) e [Inter](https://github.com/rsms/inter), SIL Open Font License 1.1 (`src/OFL-*.txt`, `src/fonts/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
+- **Fuentes:** [Pacifico](https://github.com/googlefonts/Pacifico), [New Rocker](https://fonts.google.com/specimen/New+Rocker), [Fredoka](https://fonts.google.com/specimen/Fredoka), [Rye](https://fonts.google.com/specimen/Rye), [EB Garamond](https://github.com/octaviopardo/EBGaramond12), [UnifrakturMaguntia](https://fonts.google.com/specimen/UnifrakturMaguntia), [Playfair Display](https://github.com/clauseggers/Playfair), [Inter](https://github.com/rsms/inter), [Roboto](https://github.com/googlefonts/roboto-3-classic) y [Tinos](https://github.com/googlefonts/tinos), SIL Open Font License 1.1 (`src/OFL-*.txt`, `src/fonts/OFL-*.txt`). Impact es de Microsoft y no se incluye (`src/get_impact.sh` la descarga).
 
 ## Pinturas y grabados (`src/arte/`, stickers `arte_*`)
 
@@ -52,6 +52,24 @@ Obras de Francisco de Goya (1746–1828) y Gustave Doré (1832–1883), dominio 
 - `bokeh.jpg`: [Abstract bokeh lights (22142580635).jpg](https://commons.wikimedia.org/wiki/File:Abstract_bokeh_lights_(22142580635).jpg) — Jim Killock, CC BY-SA 2.0 (el sticker es obra derivada, misma licencia)
 - `mariposa.jpg`: [ComputerHotline - Danaus plexippus (by) (3).jpg](https://commons.wikimedia.org/wiki/File:ComputerHotline_-_Danaus_plexippus_(by)_(3).jpg) — Thomas Bresson, CC BY 2.0
 - `tulipanes.jpg`: [Tulip Field Tulips Red Holland Nature Flowers.jpg](https://commons.wikimedia.org/wiki/File:Tulip_Field_Tulips_Red_Holland_Nature_Flowers.jpg) — Filio, CC0
+
+## Calacas (`src/calacas/`, stickers `calaca_*` y `lot_muerte`)
+
+- `santa_muerte_negra.jpg`: [Sanata Muete Statue crafted by Christina Paul.jpg](https://commons.wikimedia.org/wiki/File:Sanata_Muete_Statue_crafted_by_Christina_Paul.jpg), Maatpublishing, CC0
+- `santa_muerte_color.jpg`: [Santa-muerte-nlaredo2.jpg](https://commons.wikimedia.org/wiki/File:Santa-muerte-nlaredo2.jpg), Not home, Public domain
+- `posada_catrina.jpg`: [La Calavera Catrina J Guadalupe Posada.jpg](https://commons.wikimedia.org/wiki/File:La_Calavera_Catrina_J_Guadalupe_Posada.jpg), José Guadalupe Posada, Public domain
+- `posada_oaxaquena.jpg`: [José Guadalupe Posada, Calavera oaxaqueña, ca. 1903.jpg](https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Guadalupe_Posada,_Calavera_oaxaque%C3%B1a,_ca._1903.jpg), José Guadalupe Posada, Public domain
+- `posada_electrica.jpg`: [Gran calavera eléctrica2.jpg](https://commons.wikimedia.org/wiki/File:Gran_calavera_el%C3%A9ctrica2.jpg), José Guadalupe Posada, Public domain
+- `posada_quijote.jpg`: [Page 1- The calavera of Don Quijote, from '36 Grabados' (Mexico, 1943) MET DP872823.jpg](https://commons.wikimedia.org/wiki/File:Page_1-_The_calavera_of_Don_Quijote,_from_%2736_Grabados%27_(Mexico,_1943)_MET_DP872823.jpg), José Guadalupe Posada / Arsacio Vanegas (Metropolitan Museum of Art), CC0
+- `mariachi.jpg`: [Dia de muertos mariachi.jpg](https://commons.wikimedia.org/wiki/File:Dia_de_muertos_mariachi.jpg), Luisroj96, CC BY-SA 3.0 (el sticker es obra derivada, misma licencia)
+
+## Desmotivaciones (`src/desmo/`, stickers `desmo_*`)
+
+- `soldado.jpg`: [Estonian soldier giving a thumbs up.jpg](https://commons.wikimedia.org/wiki/File:Estonian_soldier_giving_a_thumbs_up.jpg), Spc. Joshua Leonard (U.S. Army), Public domain
+- `tlacuache.jpg`: [AwesomePossum-AmericanOpossum.jpg](https://commons.wikimedia.org/wiki/File:AwesomePossum-AmericanOpossum.jpg), PiccoloNamek, CC BY-SA 3.0 (el sticker es obra derivada, misma licencia)
+- `gato.jpg`: [Unimpressed kitten (5339854082).jpg](https://commons.wikimedia.org/wiki/File:Unimpressed_kitten_(5339854082).jpg), Magnus Bråth, CC BY 2.0
+- `chihuahua.jpg`: [IgorTheChihuahua.png](https://commons.wikimedia.org/wiki/File:IgorTheChihuahua.png), BananaYesterday, CC BY-SA 4.0 (el sticker es obra derivada, misma licencia)
+- `desmo_si_jalo` usa `src/kratos/kratos_serio.jpg` y `desmo_ahorita_voy` la foto del moai (CC BY-SA 4.0, igual que los demás stickers del moai, igual que `lot_moai`).
 
 ## Imágenes de ponis
 

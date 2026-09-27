@@ -49,6 +49,18 @@ Stickers de WhatsApp: ponis, moai gigachad, tarjetas de tía y frases. Todos son
 
 <img src="packs/moai-animado/moai_ceja.webp" width="128" title="moai_ceja"> <img src="packs/moai-animado/moai_edit.webp" width="128" title="moai_edit"> <img src="packs/moai-animado/moai_gigachad.webp" width="128" title="moai_gigachad"> <img src="packs/moai-animado/moai_gigachad_pregunta.webp" width="128" title="moai_gigachad_pregunta"> <img src="packs/moai-animado/moai_lentes.webp" width="128" title="moai_lentes"> <img src="packs/moai-animado/moai_te_valgo_verga.webp" width="128" title="moai_te_valgo_verga"> <img src="packs/moai-animado/moai_voluntad_de_dios.webp" width="128" title="moai_voluntad_de_dios">
 
+### calacas — `packs/calacas` (7)
+
+<img src="packs/calacas/calaca_bendiciones.webp" width="128" title="calaca_bendiciones"> <img src="packs/calacas/calaca_catrina_pobre.webp" width="128" title="calaca_catrina_pobre"> <img src="packs/calacas/calaca_me_cargo_el_payaso.webp" width="128" title="calaca_me_cargo_el_payaso"> <img src="packs/calacas/calaca_me_muero_de_risa.webp" width="128" title="calaca_me_muero_de_risa"> <img src="packs/calacas/calaca_muerto_bailando.webp" width="128" title="calaca_muerto_bailando"> <img src="packs/calacas/calaca_ya_alaverga_todo.webp" width="128" title="calaca_ya_alaverga_todo"> <img src="packs/calacas/calaca_ya_voy.webp" width="128" title="calaca_ya_voy">
+
+### desmotivaciones — `packs/desmotivaciones` (6)
+
+<img src="packs/desmotivaciones/desmo_ahorita_voy.webp" width="128" title="desmo_ahorita_voy"> <img src="packs/desmotivaciones/desmo_ni_madres.webp" width="128" title="desmo_ni_madres"> <img src="packs/desmotivaciones/desmo_ok_punetas.webp" width="128" title="desmo_ok_punetas"> <img src="packs/desmotivaciones/desmo_que_pedo.webp" width="128" title="desmo_que_pedo"> <img src="packs/desmotivaciones/desmo_si_jalo.webp" width="128" title="desmo_si_jalo"> <img src="packs/desmotivaciones/desmo_te_estoy_viendo.webp" width="128" title="desmo_te_estoy_viendo">
+
+### loteria — `packs/loteria` (10)
+
+<img src="packs/loteria/lot_casado.webp" width="128" title="lot_casado"> <img src="packs/loteria/lot_chismosa.webp" width="128" title="lot_chismosa"> <img src="packs/loteria/lot_crudo.webp" width="128" title="lot_crudo"> <img src="packs/loteria/lot_dama.webp" width="128" title="lot_dama"> <img src="packs/loteria/lot_dormilona.webp" width="128" title="lot_dormilona"> <img src="packs/loteria/lot_mamona.webp" width="128" title="lot_mamona"> <img src="packs/loteria/lot_moai.webp" width="128" title="lot_moai"> <img src="packs/loteria/lot_muerte.webp" width="128" title="lot_muerte"> <img src="packs/loteria/lot_valiente.webp" width="128" title="lot_valiente"> <img src="packs/loteria/lot_ya_voy.webp" width="128" title="lot_ya_voy">
+
 ## Regenerarlos
 
 ```bash
