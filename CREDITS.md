@@ -64,6 +64,17 @@ Wallpapers de Santa Muerte y de la parca bajados de wallpaperaccess.com y wallpa
 - `calavera_dorada.jpg`: https://wallpaperaccess.com/full/7259121.jpg
 - `reina_orbe.jpg`: https://wallpapercave.com/wp/wp6666806.jpg
 - `roja_blanca.jpg`: https://wallpaperaccess.com/full/7259166.jpg
+- `corazon_manos.jpg`: https://wallpaperaccess.com/full/15013014.jpg
+- `abrazo_rosas.jpg`: https://wallpaperaccess.com/full/29275496.jpg
+- `ojos_corazon.jpg`: https://wallpapercave.com/wp/wp10749086.jpg
+- `flor_ofrenda.jpg`: https://wallpaperaccess.com/full/12335027.jpg
+- `catrines.jpg`: https://wallpaperaccess.com/full/29275497.png
+- `luna_pareja.jpg`: https://wallpaperaccess.com/full/29275511.jpg
+- `rey_beso.jpg`: https://wallpaperaccess.com/full/15012934.jpg
+- `corazon_espada.jpg`: https://wallpaperaccess.com/full/4477604.jpg
+- `corazon_pecho.jpg`: https://wallpapercave.com/wp/wp11882590.jpg
+- `beso_teal.jpg`: https://wallpaperaccess.com/full/29275539.jpg
+- `beso_rayos.jpg`: https://wallpaperaccess.com/full/29275533.jpg
 - `posada_catrina.jpg` (solo `lot_muerte`): [La Calavera Catrina J Guadalupe Posada.jpg](https://commons.wikimedia.org/wiki/File:La_Calavera_Catrina_J_Guadalupe_Posada.jpg), José Guadalupe Posada, Public domain
 
 ## Desmotivaciones (`src/desmo/`, stickers `desmo_*`)
