@@ -102,6 +102,12 @@ Wallpapers de Santa Muerte y de la parca bajados de wallpaperaccess.com y wallpa
 | `pp/MLP_The_Movie_Pinkie_Pie_official_artwork.grid.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:MLP_The_Movie_Pinkie_Pie_official_artwork.grid.png) |
 | `pp/MLP_The_Movie_Pinkie_Pie_official_artwork.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:MLP_The_Movie_Pinkie_Pie_official_artwork.png) |
 | `pp/Pinkie_Pie_MLP_Gameloft.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:Pinkie_Pie_MLP_Gameloft.png) |
+| `pp/FANMADE_Pinkie_Pie_celebrating_with_arms_up.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie_Pie_celebrating_with_arms_up.png), autor y licencia por confirmar |
+| `pp/FANMADE_Pinkie_Pie_dancing.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie_Pie_dancing.png), autor y licencia por confirmar; sin la sombra del piso |
+| `pp/FANMADE_Pinkie_glasses_by_j_brony.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie_glasses_by_j_brony-d4da2zl.png), de j_brony, licencia por confirmar |
+| `pp/FANMADE_Pinkie_hugging_screen.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie_hugging_screen.png), autor y licencia por confirmar |
+| `pp/FANMADE_Pinkies_Listening_by_Quasdar.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie%27s_Listening_by_Quasdar.png), de Quasdar, licencia por confirmar |
+| `pp/FANMADE_Pinkie_Pie_by_AtomicGreymon.t.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Pinkie_Pie_by_AtomicGreymon.png), de AtomicGreymon, licencia por confirmar |
 | `rd/FANMADE_proud_Rainbow_Dash_vector.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_proud_Rainbow_Dash_vector.png) |
 | `rd/FANMADE_Rainbow_Dash_chillin.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Rainbow_Dash_chillin.png) |
 | `rd/FANMADE_Rainbow_Dash_confident_vector.png` | [mlp.fandom.com](https://mlp.fandom.com/wiki/File:FANMADE_Rainbow_Dash_confident_vector.png) |
